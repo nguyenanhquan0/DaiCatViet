@@ -9,8 +9,8 @@
     "test": "ng test"
   },
   "engines": {
-    "node": "18.15.0",
-    "npm": "10.9.0"
+    "npm": "9.5.0",
+    "node": "v18.15.0"
   },
   "private": true,
   "dependencies": {
