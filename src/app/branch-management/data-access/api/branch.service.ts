@@ -1,9 +1,5 @@
 import { Injectable } from '@angular/core';
-import {
-  HttpClient,
-  HttpErrorResponse,
-  HttpHeaders,
-} from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { catchError, throwError } from 'rxjs';
 import { BranchActiveApi, BranchApi, BranchPagingApi, BranchUpdateApi } from '../model/branch-api.model';
 import { Paging } from 'src/app/share/data-access/model/paging.type';

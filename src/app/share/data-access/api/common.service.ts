@@ -1,10 +1,5 @@
 import { Injectable } from '@angular/core';
-import {
-  HttpClient,
-  HttpErrorResponse,
-  HttpHeaders,
-  HttpParams,
-} from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders, HttpParams } from '@angular/common/http';
 import { catchError, throwError } from 'rxjs';
 import { AutocompleteApi } from '../model/autocomplete-api.model';
 import { BranchNameApi } from '../model/branch-name.model';

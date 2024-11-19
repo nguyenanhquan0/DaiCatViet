@@ -1,9 +1,5 @@
 import { Injectable } from '@angular/core';
-import {
-  HttpClient,
-  HttpErrorResponse,
-  HttpHeaders,
-} from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { catchError, throwError } from 'rxjs';
 import { Paging } from 'src/app/share/data-access/model/paging.type';
 import { ServiceDataApi } from 'src/app/service-management/data-access/model/service-api.model';
