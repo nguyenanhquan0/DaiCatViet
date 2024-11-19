@@ -75,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "GFA23SE25_FA23SE128_RM:build:production"
+              "buildTarget": "GFA23SE25_FA23SE128_RM:build:production"
             },
             "development": {
-              "browserTarget": "GFA23SE25_FA23SE128_RM:build:development"
+              "buildTarget": "GFA23SE25_FA23SE128_RM:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "GFA23SE25_FA23SE128_RM:build"
+            "buildTarget": "GFA23SE25_FA23SE128_RM:build"
           }
         },
         "test": {
