@@ -10,7 +10,7 @@
     "e2e": "ng e2e"
   },
   "engines": {
-    "npm": "9.5.0",
+    "npm": "10.2.4",
     "node": "v18.19.1"
   },
   "private": true,
